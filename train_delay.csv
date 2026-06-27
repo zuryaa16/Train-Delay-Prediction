@@ -1,0 +1,501 @@
+Train_ID,Route,Source,Destination,Distance_km,Scheduled_Departure,Day_of_Week,Month,Weather,Temperature,Holiday,Previous_Delay,Average_Speed,Actual_Delay
+TR1001,New York-Philadelphia,New York,Philadelphia,614,15:45,Sunday,January,Rain,11,No,26,113,34
+TR1002,Seattle-Portland,Seattle,Portland,373,16:45,Friday,February,Rain,11,Yes,21,71,45
+TR1003,Chicago-Detroit,Chicago,Detroit,329,16:00,Thursday,August,Rain,16,No,12,76,34
+TR1004,St Louis-Chicago,St Louis,Chicago,133,07:45,Friday,April,Rain,24,No,39,119,52
+TR1005,New York-Boston,New York,Boston,397,17:30,Tuesday,October,Snow,3,No,1,69,40
+TR1006,Chicago-Detroit,Chicago,Detroit,232,20:45,Monday,February,Fog,12,No,20,89,40
+TR1007,New York-Philadelphia,New York,Philadelphia,472,17:45,Monday,February,Fog,6,Yes,27,120,49
+TR1008,Sacramento-Emeryville,Sacramento,Emeryville,373,07:30,Tuesday,January,Rain,19,No,3,66,14
+TR1009,Los Angeles-San Diego,Los Angeles,San Diego,214,19:30,Sunday,February,Snow,1,No,1,70,32
+TR1010,Washington-New York,Washington,New York,269,08:00,Saturday,October,Sunny,27,No,24,90,24
+TR1011,Albany-NYC,Albany,New York,207,22:45,Tuesday,April,Rain,17,No,21,98,31
+TR1012,Los Angeles-San Diego,Los Angeles,San Diego,589,08:45,Friday,June,Rain,13,No,19,75,38
+TR1013,St Louis-Chicago,St Louis,Chicago,300,07:45,Tuesday,November,Fog,9,Yes,37,112,54
+TR1014,Chicago-Detroit,Chicago,Detroit,135,16:00,Tuesday,April,Fog,12,No,22,88,46
+TR1015,New York-Philadelphia,New York,Philadelphia,229,14:45,Wednesday,July,Sunny,22,No,9,118,8
+TR1016,Seattle-Portland,Seattle,Portland,312,13:45,Saturday,December,Rain,21,No,18,69,36
+TR1017,Boston-Washington,Boston,Washington,331,18:00,Sunday,February,Sunny,25,Yes,2,88,13
+TR1018,Los Angeles-San Diego,Los Angeles,San Diego,524,14:15,Sunday,March,Fog,7,No,32,71,58
+TR1019,New York-Boston,New York,Boston,480,16:45,Tuesday,November,Rain,11,Yes,13,119,25
+TR1020,Seattle-Portland,Seattle,Portland,223,11:15,Monday,March,Cloudy,16,No,11,126,12
+TR1021,St Louis-Chicago,St Louis,Chicago,642,13:45,Tuesday,March,Snow,0,No,37,74,59
+TR1022,Albany-NYC,Albany,New York,150,07:30,Wednesday,August,Rain,24,No,28,69,43
+TR1023,Chicago-Detroit,Chicago,Detroit,417,06:00,Friday,November,Sunny,31,Yes,20,85,31
+TR1024,New York-Boston,New York,Boston,660,07:45,Wednesday,April,Rain,11,Yes,31,82,44
+TR1025,Boston-Washington,Boston,Washington,607,05:30,Wednesday,October,Cloudy,22,No,19,86,25
+TR1026,Seattle-Portland,Seattle,Portland,212,10:30,Sunday,March,Cloudy,28,No,7,62,12
+TR1027,New York-Philadelphia,New York,Philadelphia,547,22:30,Friday,November,Rain,14,No,39,104,50
+TR1028,Sacramento-Emeryville,Sacramento,Emeryville,121,18:30,Friday,June,Fog,9,No,7,97,25
+TR1029,Albany-NYC,Albany,New York,485,20:15,Wednesday,March,Cloudy,26,No,10,103,8
+TR1030,Seattle-Portland,Seattle,Portland,695,21:30,Monday,November,Sunny,25,No,11,90,17
+TR1031,Chicago-Detroit,Chicago,Detroit,340,17:45,Sunday,April,Rain,14,Yes,7,100,30
+TR1032,Chicago-Detroit,Chicago,Detroit,241,14:00,Tuesday,August,Fog,7,Yes,30,74,66
+TR1033,Seattle-Portland,Seattle,Portland,429,18:30,Sunday,March,Snow,5,Yes,30,115,54
+TR1034,Seattle-Portland,Seattle,Portland,277,21:15,Saturday,March,Sunny,25,No,31,76,32
+TR1035,Sacramento-Emeryville,Sacramento,Emeryville,575,12:15,Sunday,October,Fog,15,Yes,2,70,38
+TR1036,Sacramento-Emeryville,Sacramento,Emeryville,663,11:15,Saturday,December,Snow,-2,No,1,128,28
+TR1037,New York-Boston,New York,Boston,148,07:30,Tuesday,June,Fog,15,No,6,101,15
+TR1038,Albany-NYC,Albany,New York,429,05:45,Friday,March,Sunny,24,No,25,115,22
+TR1039,Washington-New York,Washington,New York,645,17:30,Monday,June,Fog,15,No,19,94,37
+TR1040,Albany-NYC,Albany,New York,419,19:30,Tuesday,January,Cloudy,16,Yes,9,128,18
+TR1041,Chicago-Detroit,Chicago,Detroit,461,10:15,Wednesday,December,Rain,22,Yes,36,112,52
+TR1042,New York-Philadelphia,New York,Philadelphia,534,19:45,Sunday,November,Cloudy,21,No,22,108,26
+TR1043,Albany-NYC,Albany,New York,349,09:30,Tuesday,September,Sunny,27,Yes,32,88,43
+TR1044,Seattle-Portland,Seattle,Portland,282,11:45,Monday,August,Fog,11,No,12,95,25
+TR1045,New York-Boston,New York,Boston,273,13:45,Thursday,October,Fog,9,No,24,123,36
+TR1046,Los Angeles-San Diego,Los Angeles,San Diego,406,11:15,Sunday,October,Fog,13,No,39,125,55
+TR1047,Sacramento-Emeryville,Sacramento,Emeryville,436,21:00,Saturday,April,Rain,23,No,2,101,8
+TR1048,Boston-Washington,Boston,Washington,539,15:45,Saturday,December,Fog,14,Yes,2,94,19
+TR1049,Albany-NYC,Albany,New York,523,20:00,Thursday,November,Cloudy,24,No,39,106,39
+TR1050,Los Angeles-San Diego,Los Angeles,San Diego,592,08:30,Friday,April,Fog,8,No,12,106,30
+TR1051,New York-Boston,New York,Boston,407,11:00,Monday,February,Cloudy,23,No,28,119,26
+TR1052,Washington-New York,Washington,New York,584,08:00,Monday,August,Snow,-3,No,13,107,44
+TR1053,Chicago-Detroit,Chicago,Detroit,188,21:00,Sunday,April,Snow,-3,No,8,95,26
+TR1054,Washington-New York,Washington,New York,187,11:15,Friday,June,Fog,14,Yes,23,97,42
+TR1055,Albany-NYC,Albany,New York,252,19:00,Tuesday,April,Fog,12,Yes,0,111,20
+TR1056,Chicago-Detroit,Chicago,Detroit,559,21:30,Sunday,September,Snow,-4,No,20,130,42
+TR1057,Seattle-Portland,Seattle,Portland,302,14:30,Friday,July,Fog,6,No,25,111,39
+TR1058,Seattle-Portland,Seattle,Portland,523,13:15,Saturday,December,Cloudy,22,No,9,96,9
+TR1059,Seattle-Portland,Seattle,Portland,695,22:00,Friday,May,Rain,10,No,31,62,42
+TR1060,Seattle-Portland,Seattle,Portland,521,08:00,Wednesday,March,Cloudy,22,Yes,38,94,45
+TR1061,Boston-Washington,Boston,Washington,309,11:30,Monday,November,Rain,20,Yes,25,116,33
+TR1062,Los Angeles-San Diego,Los Angeles,San Diego,598,09:15,Saturday,July,Fog,13,No,5,86,22
+TR1063,Seattle-Portland,Seattle,Portland,309,22:00,Saturday,November,Sunny,21,Yes,13,64,25
+TR1064,New York-Philadelphia,New York,Philadelphia,367,08:00,Monday,February,Cloudy,23,No,16,102,15
+TR1065,Los Angeles-San Diego,Los Angeles,San Diego,439,08:30,Wednesday,March,Snow,5,No,23,96,53
+TR1066,Los Angeles-San Diego,Los Angeles,San Diego,193,11:15,Wednesday,September,Sunny,34,Yes,1,97,10
+TR1067,New York-Philadelphia,New York,Philadelphia,307,09:30,Thursday,March,Snow,-1,No,10,116,35
+TR1068,St Louis-Chicago,St Louis,Chicago,530,18:15,Monday,January,Cloudy,28,No,12,117,15
+TR1069,Boston-Washington,Boston,Washington,433,20:30,Monday,September,Cloudy,21,No,22,109,19
+TR1070,Sacramento-Emeryville,Sacramento,Emeryville,304,19:15,Tuesday,September,Fog,11,No,16,104,30
+TR1071,Seattle-Portland,Seattle,Portland,576,15:45,Thursday,August,Fog,13,No,28,121,44
+TR1072,Los Angeles-San Diego,Los Angeles,San Diego,120,16:45,Saturday,January,Sunny,32,No,8,115,13
+TR1073,Sacramento-Emeryville,Sacramento,Emeryville,198,20:45,Monday,April,Rain,10,No,18,108,34
+TR1074,Washington-New York,Washington,New York,423,06:00,Friday,November,Fog,11,No,38,96,50
+TR1075,New York-Boston,New York,Boston,265,13:00,Saturday,June,Snow,-3,No,0,127,28
+TR1076,Albany-NYC,Albany,New York,359,13:45,Thursday,May,Rain,20,No,17,66,37
+TR1077,Albany-NYC,Albany,New York,622,16:00,Wednesday,February,Snow,0,No,30,96,55
+TR1078,Washington-New York,Washington,New York,369,07:30,Thursday,August,Sunny,28,No,39,112,39
+TR1079,Seattle-Portland,Seattle,Portland,580,13:45,Thursday,March,Cloudy,17,No,4,63,12
+TR1080,Albany-NYC,Albany,New York,410,15:15,Friday,October,Sunny,31,Yes,8,88,22
+TR1081,Washington-New York,Washington,New York,680,17:30,Thursday,June,Fog,9,Yes,1,103,22
+TR1082,Boston-Washington,Boston,Washington,303,17:30,Saturday,September,Sunny,34,No,40,73,50
+TR1083,New York-Boston,New York,Boston,600,10:45,Sunday,August,Cloudy,27,No,18,67,26
+TR1084,Sacramento-Emeryville,Sacramento,Emeryville,566,16:15,Wednesday,October,Rain,11,No,3,71,16
+TR1085,New York-Boston,New York,Boston,555,05:15,Friday,November,Fog,12,No,0,68,30
+TR1086,Albany-NYC,Albany,New York,357,18:45,Tuesday,December,Snow,2,Yes,26,90,62
+TR1087,Boston-Washington,Boston,Washington,541,11:15,Tuesday,December,Snow,3,Yes,6,97,42
+TR1088,St Louis-Chicago,St Louis,Chicago,564,19:00,Saturday,February,Rain,14,No,40,105,57
+TR1089,Sacramento-Emeryville,Sacramento,Emeryville,478,09:30,Friday,July,Sunny,33,Yes,40,72,58
+TR1090,New York-Philadelphia,New York,Philadelphia,621,20:15,Monday,October,Fog,7,No,34,73,56
+TR1091,New York-Philadelphia,New York,Philadelphia,178,10:45,Tuesday,February,Rain,15,No,18,102,25
+TR1092,Sacramento-Emeryville,Sacramento,Emeryville,131,19:45,Tuesday,December,Cloudy,21,Yes,2,118,8
+TR1093,Chicago-Detroit,Chicago,Detroit,307,22:15,Monday,January,Fog,8,No,37,91,52
+TR1094,Albany-NYC,Albany,New York,249,15:00,Tuesday,December,Fog,14,No,32,118,52
+TR1095,Albany-NYC,Albany,New York,205,14:00,Saturday,July,Snow,5,No,27,64,67
+TR1096,Sacramento-Emeryville,Sacramento,Emeryville,393,15:15,Friday,March,Snow,3,No,33,82,63
+TR1097,Boston-Washington,Boston,Washington,569,16:15,Tuesday,February,Rain,21,Yes,34,108,55
+TR1098,New York-Boston,New York,Boston,493,16:45,Tuesday,November,Fog,8,No,13,61,37
+TR1099,New York-Boston,New York,Boston,535,05:45,Wednesday,July,Snow,-5,No,32,97,54
+TR1100,Sacramento-Emeryville,Sacramento,Emeryville,422,08:00,Thursday,December,Cloudy,18,No,0,103,0
+TR1101,Chicago-Detroit,Chicago,Detroit,238,15:15,Monday,May,Cloudy,18,Yes,11,90,21
+TR1102,New York-Philadelphia,New York,Philadelphia,556,16:30,Tuesday,January,Fog,10,No,24,116,39
+TR1103,New York-Boston,New York,Boston,292,21:45,Sunday,October,Snow,5,No,2,121,35
+TR1104,Washington-New York,Washington,New York,289,10:00,Friday,April,Fog,12,Yes,18,115,34
+TR1105,Los Angeles-San Diego,Los Angeles,San Diego,390,08:00,Thursday,November,Cloudy,15,No,4,120,6
+TR1106,New York-Boston,New York,Boston,165,06:15,Wednesday,October,Sunny,26,No,12,112,13
+TR1107,Los Angeles-San Diego,Los Angeles,San Diego,361,08:30,Monday,March,Fog,13,No,33,79,55
+TR1108,Sacramento-Emeryville,Sacramento,Emeryville,676,21:30,Monday,February,Fog,14,No,5,118,24
+TR1109,Washington-New York,Washington,New York,459,07:00,Wednesday,January,Sunny,27,Yes,12,118,15
+TR1110,Washington-New York,Washington,New York,385,07:30,Thursday,April,Rain,16,No,11,108,16
+TR1111,Washington-New York,Washington,New York,203,22:15,Monday,March,Snow,-4,No,29,85,58
+TR1112,Boston-Washington,Boston,Washington,525,06:45,Saturday,June,Sunny,24,No,18,83,23
+TR1113,Chicago-Detroit,Chicago,Detroit,398,10:45,Monday,December,Snow,-5,No,20,103,46
+TR1114,Chicago-Detroit,Chicago,Detroit,678,05:30,Monday,May,Sunny,32,No,36,93,40
+TR1115,Albany-NYC,Albany,New York,530,21:45,Thursday,December,Sunny,29,No,10,117,10
+TR1116,Seattle-Portland,Seattle,Portland,455,06:45,Monday,October,Fog,6,No,34,78,54
+TR1117,Sacramento-Emeryville,Sacramento,Emeryville,236,08:00,Tuesday,October,Rain,19,No,20,95,28
+TR1118,New York-Philadelphia,New York,Philadelphia,566,20:45,Monday,April,Snow,1,No,13,113,35
+TR1119,New York-Philadelphia,New York,Philadelphia,653,05:45,Tuesday,September,Rain,14,No,35,85,49
+TR1120,New York-Philadelphia,New York,Philadelphia,199,07:30,Monday,May,Rain,12,Yes,39,81,51
+TR1121,Boston-Washington,Boston,Washington,612,07:45,Friday,December,Snow,1,Yes,30,125,56
+TR1122,New York-Boston,New York,Boston,429,19:15,Saturday,November,Cloudy,22,No,35,66,42
+TR1123,Albany-NYC,Albany,New York,490,18:45,Saturday,March,Snow,-3,No,31,128,48
+TR1124,New York-Philadelphia,New York,Philadelphia,527,09:45,Sunday,July,Snow,1,Yes,27,121,53
+TR1125,Los Angeles-San Diego,Los Angeles,San Diego,494,18:30,Friday,July,Rain,25,No,22,104,33
+TR1126,St Louis-Chicago,St Louis,Chicago,610,11:00,Monday,April,Snow,1,Yes,20,114,47
+TR1127,New York-Philadelphia,New York,Philadelphia,421,09:45,Tuesday,June,Sunny,22,Yes,9,123,11
+TR1128,Washington-New York,Washington,New York,635,17:45,Monday,May,Fog,14,No,15,111,29
+TR1129,St Louis-Chicago,St Louis,Chicago,301,10:45,Sunday,July,Fog,10,Yes,8,103,23
+TR1130,Washington-New York,Washington,New York,416,11:30,Thursday,December,Sunny,34,No,1,99,0
+TR1131,New York-Philadelphia,New York,Philadelphia,449,21:45,Monday,April,Cloudy,24,No,24,81,25
+TR1132,Chicago-Detroit,Chicago,Detroit,252,13:15,Monday,November,Sunny,21,Yes,35,125,37
+TR1133,Washington-New York,Washington,New York,583,09:15,Friday,November,Cloudy,23,No,37,60,42
+TR1134,Seattle-Portland,Seattle,Portland,134,11:30,Wednesday,June,Rain,24,No,24,102,32
+TR1135,Boston-Washington,Boston,Washington,172,07:30,Monday,June,Fog,11,No,22,99,31
+TR1136,Washington-New York,Washington,New York,611,09:45,Saturday,October,Rain,18,Yes,1,82,22
+TR1137,New York-Philadelphia,New York,Philadelphia,540,16:00,Sunday,February,Sunny,20,No,40,77,42
+TR1138,Albany-NYC,Albany,New York,290,07:00,Sunday,May,Rain,24,No,18,109,25
+TR1139,Seattle-Portland,Seattle,Portland,192,11:30,Tuesday,June,Fog,9,No,38,113,55
+TR1140,Chicago-Detroit,Chicago,Detroit,139,13:45,Wednesday,July,Cloudy,22,No,28,130,33
+TR1141,St Louis-Chicago,St Louis,Chicago,620,18:15,Friday,April,Snow,2,No,34,116,59
+TR1142,St Louis-Chicago,St Louis,Chicago,180,15:00,Friday,April,Snow,-5,Yes,2,72,41
+TR1143,Sacramento-Emeryville,Sacramento,Emeryville,500,16:45,Thursday,January,Cloudy,21,No,40,113,43
+TR1144,St Louis-Chicago,St Louis,Chicago,396,14:00,Wednesday,July,Rain,18,No,27,113,32
+TR1145,Albany-NYC,Albany,New York,676,18:15,Wednesday,May,Rain,22,No,12,72,31
+TR1146,Sacramento-Emeryville,Sacramento,Emeryville,250,10:30,Wednesday,May,Sunny,32,No,22,128,23
+TR1147,Sacramento-Emeryville,Sacramento,Emeryville,597,08:00,Friday,May,Sunny,25,Yes,21,98,29
+TR1148,Boston-Washington,Boston,Washington,262,13:15,Saturday,May,Sunny,27,No,15,105,12
+TR1149,Seattle-Portland,Seattle,Portland,259,18:45,Monday,October,Snow,2,No,8,116,37
+TR1150,Seattle-Portland,Seattle,Portland,234,16:00,Saturday,October,Fog,15,No,0,116,18
+TR1151,Washington-New York,Washington,New York,570,15:30,Thursday,September,Fog,13,Yes,40,76,61
+TR1152,Seattle-Portland,Seattle,Portland,517,06:15,Wednesday,May,Fog,7,Yes,11,122,25
+TR1153,Washington-New York,Washington,New York,457,10:30,Sunday,September,Rain,25,No,21,130,34
+TR1154,St Louis-Chicago,St Louis,Chicago,668,09:15,Saturday,May,Sunny,24,No,9,60,16
+TR1155,New York-Philadelphia,New York,Philadelphia,525,11:00,Tuesday,May,Sunny,33,No,28,114,25
+TR1156,Sacramento-Emeryville,Sacramento,Emeryville,555,09:15,Monday,May,Snow,-2,No,15,71,50
+TR1157,Boston-Washington,Boston,Washington,375,05:15,Friday,December,Rain,16,No,14,123,25
+TR1158,Seattle-Portland,Seattle,Portland,584,05:15,Wednesday,April,Sunny,22,No,9,90,16
+TR1159,New York-Boston,New York,Boston,368,11:45,Tuesday,April,Rain,12,No,19,124,30
+TR1160,New York-Boston,New York,Boston,340,07:45,Sunday,May,Rain,17,No,31,86,37
+TR1161,St Louis-Chicago,St Louis,Chicago,147,05:00,Friday,September,Sunny,20,No,20,92,19
+TR1162,Boston-Washington,Boston,Washington,651,10:30,Friday,January,Cloudy,22,No,10,96,15
+TR1163,St Louis-Chicago,St Louis,Chicago,266,18:15,Monday,July,Sunny,30,No,39,117,39
+TR1164,St Louis-Chicago,St Louis,Chicago,233,19:15,Thursday,December,Fog,6,No,26,84,46
+TR1165,Seattle-Portland,Seattle,Portland,333,14:45,Tuesday,March,Snow,0,No,12,121,36
+TR1166,New York-Boston,New York,Boston,544,17:45,Sunday,March,Fog,12,No,23,76,47
+TR1167,New York-Boston,New York,Boston,455,21:30,Friday,August,Rain,10,No,5,68,25
+TR1168,New York-Philadelphia,New York,Philadelphia,648,16:15,Tuesday,February,Cloudy,18,Yes,3,110,9
+TR1169,Los Angeles-San Diego,Los Angeles,San Diego,377,15:00,Thursday,October,Cloudy,20,No,31,72,37
+TR1170,New York-Philadelphia,New York,Philadelphia,341,12:30,Sunday,January,Cloudy,21,Yes,37,72,45
+TR1171,Albany-NYC,Albany,New York,263,11:15,Thursday,April,Fog,13,No,39,126,51
+TR1172,Washington-New York,Washington,New York,465,06:30,Tuesday,October,Fog,8,No,37,123,50
+TR1173,Chicago-Detroit,Chicago,Detroit,652,07:00,Thursday,November,Rain,15,Yes,8,87,27
+TR1174,Sacramento-Emeryville,Sacramento,Emeryville,653,22:00,Tuesday,March,Snow,-5,No,10,73,46
+TR1175,New York-Boston,New York,Boston,556,16:15,Sunday,January,Fog,5,No,34,117,56
+TR1176,New York-Boston,New York,Boston,421,14:45,Wednesday,December,Sunny,21,No,3,76,6
+TR1177,Seattle-Portland,Seattle,Portland,202,11:45,Thursday,October,Fog,8,No,13,78,37
+TR1178,Washington-New York,Washington,New York,228,17:15,Thursday,August,Sunny,21,No,25,109,24
+TR1179,Los Angeles-San Diego,Los Angeles,San Diego,354,18:00,Friday,February,Rain,11,No,29,128,38
+TR1180,Los Angeles-San Diego,Los Angeles,San Diego,388,06:15,Monday,October,Cloudy,25,No,38,113,41
+TR1181,Washington-New York,Washington,New York,564,19:45,Tuesday,June,Sunny,32,No,2,127,4
+TR1182,New York-Philadelphia,New York,Philadelphia,271,13:30,Tuesday,February,Sunny,35,Yes,6,68,18
+TR1183,Sacramento-Emeryville,Sacramento,Emeryville,195,07:15,Saturday,March,Cloudy,18,No,3,91,9
+TR1184,New York-Philadelphia,New York,Philadelphia,523,18:00,Wednesday,February,Fog,15,No,33,99,48
+TR1185,Washington-New York,Washington,New York,408,21:30,Saturday,November,Fog,6,No,14,76,32
+TR1186,Seattle-Portland,Seattle,Portland,624,11:30,Monday,September,Fog,9,No,9,100,26
+TR1187,Albany-NYC,Albany,New York,411,14:15,Friday,July,Sunny,34,Yes,37,105,40
+TR1188,Seattle-Portland,Seattle,Portland,441,05:30,Friday,September,Rain,22,Yes,26,90,41
+TR1189,Seattle-Portland,Seattle,Portland,459,16:15,Wednesday,September,Fog,11,Yes,7,109,36
+TR1190,St Louis-Chicago,St Louis,Chicago,159,21:15,Saturday,March,Sunny,29,No,11,110,11
+TR1191,New York-Boston,New York,Boston,338,12:15,Tuesday,December,Fog,13,No,31,130,47
+TR1192,Boston-Washington,Boston,Washington,497,05:15,Thursday,August,Cloudy,28,Yes,21,112,24
+TR1193,New York-Boston,New York,Boston,285,08:30,Saturday,February,Rain,14,No,7,68,28
+TR1194,New York-Boston,New York,Boston,464,08:45,Monday,June,Snow,3,Yes,16,72,39
+TR1195,New York-Boston,New York,Boston,518,20:30,Wednesday,February,Cloudy,19,Yes,4,62,18
+TR1196,New York-Boston,New York,Boston,351,12:30,Wednesday,January,Cloudy,27,No,35,70,43
+TR1197,Chicago-Detroit,Chicago,Detroit,401,18:30,Sunday,October,Cloudy,15,No,29,61,41
+TR1198,Los Angeles-San Diego,Los Angeles,San Diego,357,07:30,Friday,October,Rain,25,No,17,100,24
+TR1199,Sacramento-Emeryville,Sacramento,Emeryville,513,09:00,Sunday,October,Cloudy,17,No,31,111,35
+TR1200,Boston-Washington,Boston,Washington,334,20:30,Tuesday,September,Cloudy,24,No,14,126,19
+TR1201,Los Angeles-San Diego,Los Angeles,San Diego,280,13:45,Friday,February,Snow,-1,No,31,62,61
+TR1202,St Louis-Chicago,St Louis,Chicago,255,08:15,Friday,December,Cloudy,26,No,3,122,4
+TR1203,Boston-Washington,Boston,Washington,203,11:45,Thursday,June,Cloudy,19,Yes,23,86,34
+TR1204,Seattle-Portland,Seattle,Portland,643,13:00,Monday,October,Fog,11,No,13,120,22
+TR1205,Washington-New York,Washington,New York,650,19:30,Tuesday,February,Rain,24,Yes,39,123,62
+TR1206,New York-Philadelphia,New York,Philadelphia,233,21:30,Tuesday,November,Fog,15,Yes,39,72,66
+TR1207,Washington-New York,Washington,New York,158,11:30,Sunday,September,Cloudy,21,No,26,83,32
+TR1208,Albany-NYC,Albany,New York,585,22:30,Tuesday,October,Rain,22,Yes,28,118,42
+TR1209,Washington-New York,Washington,New York,255,16:45,Wednesday,September,Cloudy,23,Yes,3,118,8
+TR1210,Sacramento-Emeryville,Sacramento,Emeryville,699,12:30,Saturday,January,Fog,9,No,3,123,26
+TR1211,Albany-NYC,Albany,New York,175,18:30,Sunday,October,Fog,10,No,17,67,48
+TR1212,Los Angeles-San Diego,Los Angeles,San Diego,593,05:45,Sunday,July,Sunny,29,Yes,39,89,43
+TR1213,Chicago-Detroit,Chicago,Detroit,228,17:30,Friday,March,Sunny,33,Yes,33,124,40
+TR1214,Chicago-Detroit,Chicago,Detroit,550,10:00,Sunday,April,Rain,18,Yes,26,68,56
+TR1215,Chicago-Detroit,Chicago,Detroit,486,16:00,Saturday,December,Cloudy,17,No,37,126,37
+TR1216,New York-Boston,New York,Boston,450,19:30,Wednesday,May,Sunny,33,No,17,96,16
+TR1217,New York-Boston,New York,Boston,198,14:00,Sunday,May,Sunny,20,No,32,67,41
+TR1218,Sacramento-Emeryville,Sacramento,Emeryville,615,13:00,Tuesday,July,Sunny,32,No,5,100,10
+TR1219,Seattle-Portland,Seattle,Portland,594,16:00,Wednesday,November,Cloudy,17,No,17,93,18
+TR1220,Chicago-Detroit,Chicago,Detroit,465,20:00,Friday,December,Snow,-1,No,15,113,31
+TR1221,New York-Philadelphia,New York,Philadelphia,282,16:00,Tuesday,April,Fog,7,No,19,65,46
+TR1222,St Louis-Chicago,St Louis,Chicago,281,07:00,Saturday,April,Fog,8,No,40,108,58
+TR1223,New York-Philadelphia,New York,Philadelphia,142,05:00,Monday,February,Fog,8,No,15,123,33
+TR1224,New York-Philadelphia,New York,Philadelphia,450,15:30,Monday,February,Rain,10,No,11,117,18
+TR1225,New York-Philadelphia,New York,Philadelphia,414,17:15,Wednesday,February,Rain,11,No,3,128,13
+TR1226,Boston-Washington,Boston,Washington,257,05:45,Thursday,June,Rain,21,Yes,26,90,46
+TR1227,Sacramento-Emeryville,Sacramento,Emeryville,274,08:15,Wednesday,October,Sunny,32,Yes,18,118,19
+TR1228,Washington-New York,Washington,New York,591,12:15,Wednesday,July,Snow,-5,No,7,99,35
+TR1229,Boston-Washington,Boston,Washington,504,15:15,Friday,October,Snow,5,Yes,5,128,34
+TR1230,Chicago-Detroit,Chicago,Detroit,361,15:45,Saturday,November,Cloudy,24,Yes,30,96,36
+TR1231,Seattle-Portland,Seattle,Portland,437,13:30,Friday,May,Rain,16,Yes,18,130,31
+TR1232,Los Angeles-San Diego,Los Angeles,San Diego,340,11:15,Monday,March,Rain,22,No,38,114,51
+TR1233,Sacramento-Emeryville,Sacramento,Emeryville,320,10:30,Wednesday,November,Fog,13,Yes,7,111,23
+TR1234,New York-Philadelphia,New York,Philadelphia,486,21:15,Thursday,May,Rain,25,No,17,88,27
+TR1235,Sacramento-Emeryville,Sacramento,Emeryville,515,09:45,Saturday,June,Cloudy,22,Yes,20,120,21
+TR1236,Boston-Washington,Boston,Washington,166,14:00,Monday,April,Sunny,27,No,20,92,18
+TR1237,New York-Boston,New York,Boston,189,05:45,Friday,September,Fog,8,No,10,112,27
+TR1238,Chicago-Detroit,Chicago,Detroit,203,12:45,Friday,February,Sunny,25,No,0,128,3
+TR1239,New York-Boston,New York,Boston,285,11:15,Thursday,May,Rain,17,No,17,126,31
+TR1240,Boston-Washington,Boston,Washington,229,18:15,Thursday,November,Sunny,29,No,26,99,29
+TR1241,Albany-NYC,Albany,New York,661,12:45,Saturday,December,Cloudy,28,No,23,116,24
+TR1242,New York-Philadelphia,New York,Philadelphia,517,21:15,Wednesday,September,Rain,15,No,3,60,29
+TR1243,Sacramento-Emeryville,Sacramento,Emeryville,331,18:00,Sunday,November,Cloudy,17,Yes,3,90,9
+TR1244,Albany-NYC,Albany,New York,268,08:15,Tuesday,April,Snow,-4,No,3,110,25
+TR1245,Los Angeles-San Diego,Los Angeles,San Diego,166,08:30,Friday,October,Rain,19,No,21,74,36
+TR1246,Chicago-Detroit,Chicago,Detroit,483,22:00,Friday,December,Sunny,22,No,35,88,39
+TR1247,Sacramento-Emeryville,Sacramento,Emeryville,243,08:30,Friday,July,Fog,13,No,9,94,25
+TR1248,New York-Boston,New York,Boston,321,06:30,Friday,January,Snow,-5,No,24,126,39
+TR1249,Seattle-Portland,Seattle,Portland,238,15:15,Wednesday,April,Fog,10,Yes,5,106,27
+TR1250,Albany-NYC,Albany,New York,134,13:15,Tuesday,November,Fog,5,No,27,60,43
+TR1251,Boston-Washington,Boston,Washington,260,18:30,Wednesday,August,Snow,2,No,18,106,47
+TR1252,Washington-New York,Washington,New York,311,19:30,Thursday,September,Rain,23,No,40,80,54
+TR1253,Sacramento-Emeryville,Sacramento,Emeryville,361,09:30,Wednesday,May,Sunny,28,No,16,71,18
+TR1254,Washington-New York,Washington,New York,147,05:45,Thursday,December,Rain,22,Yes,30,79,51
+TR1255,Sacramento-Emeryville,Sacramento,Emeryville,342,11:45,Friday,March,Fog,9,Yes,29,110,57
+TR1256,New York-Philadelphia,New York,Philadelphia,235,08:30,Wednesday,August,Fog,11,No,15,82,28
+TR1257,Washington-New York,Washington,New York,524,16:15,Thursday,August,Fog,13,No,5,128,22
+TR1258,Boston-Washington,Boston,Washington,160,05:30,Thursday,September,Sunny,25,No,20,110,21
+TR1259,St Louis-Chicago,St Louis,Chicago,681,18:45,Thursday,October,Rain,21,No,9,129,18
+TR1260,Washington-New York,Washington,New York,500,14:15,Wednesday,June,Sunny,21,Yes,1,82,15
+TR1261,Washington-New York,Washington,New York,400,15:45,Sunday,February,Cloudy,27,No,19,95,17
+TR1262,Seattle-Portland,Seattle,Portland,493,20:30,Thursday,August,Cloudy,27,No,11,65,22
+TR1263,Washington-New York,Washington,New York,574,08:15,Saturday,February,Sunny,24,No,28,105,28
+TR1264,Seattle-Portland,Seattle,Portland,280,06:00,Wednesday,August,Sunny,34,No,17,70,22
+TR1265,Los Angeles-San Diego,Los Angeles,San Diego,344,07:45,Tuesday,June,Fog,7,No,9,113,25
+TR1266,New York-Boston,New York,Boston,504,17:30,Tuesday,October,Snow,4,No,20,120,35
+TR1267,Washington-New York,Washington,New York,511,12:15,Friday,April,Cloudy,15,No,27,97,28
+TR1268,Sacramento-Emeryville,Sacramento,Emeryville,199,06:30,Monday,February,Snow,5,No,7,121,32
+TR1269,Seattle-Portland,Seattle,Portland,267,05:30,Friday,August,Fog,5,Yes,26,70,56
+TR1270,New York-Philadelphia,New York,Philadelphia,471,07:45,Saturday,December,Sunny,31,Yes,19,106,27
+TR1271,Washington-New York,Washington,New York,291,22:15,Saturday,February,Snow,-5,No,18,88,43
+TR1272,Washington-New York,Washington,New York,290,21:00,Sunday,September,Fog,15,No,38,123,56
+TR1273,Boston-Washington,Boston,Washington,274,07:30,Tuesday,May,Fog,8,No,4,95,13
+TR1274,New York-Philadelphia,New York,Philadelphia,177,16:45,Monday,September,Fog,9,No,23,85,42
+TR1275,Los Angeles-San Diego,Los Angeles,San Diego,447,07:15,Tuesday,August,Snow,-4,No,25,101,44
+TR1276,Albany-NYC,Albany,New York,497,19:30,Thursday,July,Rain,16,No,9,103,19
+TR1277,Los Angeles-San Diego,Los Angeles,San Diego,584,08:15,Thursday,October,Sunny,30,No,16,104,16
+TR1278,St Louis-Chicago,St Louis,Chicago,437,07:45,Sunday,June,Cloudy,19,No,15,82,18
+TR1279,Seattle-Portland,Seattle,Portland,430,16:30,Saturday,July,Cloudy,22,Yes,10,99,13
+TR1280,Sacramento-Emeryville,Sacramento,Emeryville,421,16:45,Thursday,November,Cloudy,21,Yes,28,119,33
+TR1281,Sacramento-Emeryville,Sacramento,Emeryville,142,19:30,Thursday,November,Snow,-5,Yes,6,75,35
+TR1282,Washington-New York,Washington,New York,143,08:45,Sunday,January,Fog,10,No,14,88,28
+TR1283,New York-Boston,New York,Boston,576,14:00,Thursday,February,Cloudy,25,No,2,64,9
+TR1284,Seattle-Portland,Seattle,Portland,310,08:45,Monday,March,Cloudy,22,No,28,87,27
+TR1285,New York-Boston,New York,Boston,646,21:00,Monday,August,Fog,6,No,24,63,53
+TR1286,Sacramento-Emeryville,Sacramento,Emeryville,272,19:15,Friday,January,Rain,21,Yes,1,113,13
+TR1287,Boston-Washington,Boston,Washington,349,07:00,Monday,May,Fog,10,No,28,88,43
+TR1288,Chicago-Detroit,Chicago,Detroit,152,06:30,Saturday,March,Snow,5,No,33,109,57
+TR1289,Boston-Washington,Boston,Washington,395,11:15,Monday,March,Fog,6,No,7,80,26
+TR1290,New York-Philadelphia,New York,Philadelphia,365,18:45,Friday,June,Snow,-4,No,31,111,60
+TR1291,New York-Boston,New York,Boston,503,22:15,Sunday,November,Rain,22,No,22,74,43
+TR1292,Albany-NYC,Albany,New York,602,20:15,Saturday,November,Sunny,27,No,12,82,18
+TR1293,St Louis-Chicago,St Louis,Chicago,568,19:15,Tuesday,March,Sunny,28,No,24,118,28
+TR1294,Washington-New York,Washington,New York,162,09:15,Saturday,May,Rain,21,No,33,68,50
+TR1295,New York-Boston,New York,Boston,516,12:15,Sunday,October,Sunny,22,No,26,112,28
+TR1296,Washington-New York,Washington,New York,410,15:30,Monday,September,Snow,-4,No,37,94,62
+TR1297,Seattle-Portland,Seattle,Portland,181,12:30,Thursday,December,Cloudy,19,No,12,91,13
+TR1298,St Louis-Chicago,St Louis,Chicago,426,14:45,Wednesday,February,Cloudy,22,No,10,108,11
+TR1299,Seattle-Portland,Seattle,Portland,466,14:15,Wednesday,October,Cloudy,23,No,22,76,30
+TR1300,Albany-NYC,Albany,New York,259,11:45,Monday,June,Fog,5,No,20,113,37
+TR1301,St Louis-Chicago,St Louis,Chicago,625,20:00,Monday,December,Snow,-3,No,5,71,40
+TR1302,Boston-Washington,Boston,Washington,668,11:00,Wednesday,March,Rain,19,No,27,68,40
+TR1303,New York-Philadelphia,New York,Philadelphia,353,22:15,Saturday,July,Fog,10,No,34,100,59
+TR1304,Chicago-Detroit,Chicago,Detroit,182,11:00,Friday,February,Sunny,30,No,6,91,5
+TR1305,Los Angeles-San Diego,Los Angeles,San Diego,608,08:30,Monday,February,Cloudy,23,Yes,34,62,52
+TR1306,New York-Philadelphia,New York,Philadelphia,342,21:45,Friday,November,Cloudy,21,No,14,66,24
+TR1307,Albany-NYC,Albany,New York,259,13:45,Monday,December,Cloudy,28,No,16,88,19
+TR1308,Sacramento-Emeryville,Sacramento,Emeryville,537,05:15,Monday,January,Snow,-5,Yes,37,68,67
+TR1309,New York-Boston,New York,Boston,411,22:30,Tuesday,February,Snow,1,No,27,96,47
+TR1310,Boston-Washington,Boston,Washington,646,06:15,Sunday,September,Cloudy,23,Yes,7,129,15
+TR1311,St Louis-Chicago,St Louis,Chicago,526,09:45,Friday,January,Snow,-4,Yes,39,99,65
+TR1312,St Louis-Chicago,St Louis,Chicago,158,17:15,Sunday,February,Fog,13,No,39,129,48
+TR1313,Boston-Washington,Boston,Washington,486,11:00,Saturday,April,Sunny,25,No,10,90,11
+TR1314,St Louis-Chicago,St Louis,Chicago,699,14:45,Sunday,May,Fog,15,No,29,122,40
+TR1315,New York-Philadelphia,New York,Philadelphia,214,09:00,Friday,April,Snow,-2,No,18,102,41
+TR1316,St Louis-Chicago,St Louis,Chicago,430,05:45,Saturday,September,Rain,16,No,17,108,31
+TR1317,Washington-New York,Washington,New York,617,06:45,Saturday,July,Fog,7,No,36,99,53
+TR1318,Albany-NYC,Albany,New York,593,10:30,Saturday,December,Snow,1,No,38,60,76
+TR1319,Los Angeles-San Diego,Los Angeles,San Diego,263,08:30,Wednesday,March,Cloudy,28,No,5,128,7
+TR1320,Chicago-Detroit,Chicago,Detroit,383,10:45,Friday,March,Fog,5,No,40,79,63
+TR1321,New York-Boston,New York,Boston,511,16:00,Friday,February,Fog,12,Yes,36,98,60
+TR1322,Sacramento-Emeryville,Sacramento,Emeryville,471,06:30,Monday,May,Snow,-3,No,32,99,65
+TR1323,Chicago-Detroit,Chicago,Detroit,487,16:15,Thursday,October,Snow,3,Yes,29,87,56
+TR1324,New York-Philadelphia,New York,Philadelphia,700,09:00,Monday,May,Snow,-5,Yes,23,77,49
+TR1325,Los Angeles-San Diego,Los Angeles,San Diego,557,06:45,Saturday,October,Rain,13,No,27,125,45
+TR1326,Los Angeles-San Diego,Los Angeles,San Diego,150,08:15,Thursday,October,Snow,3,No,11,100,38
+TR1327,New York-Boston,New York,Boston,259,17:00,Saturday,September,Rain,14,No,6,123,12
+TR1328,New York-Philadelphia,New York,Philadelphia,584,08:15,Monday,January,Fog,5,No,38,81,64
+TR1329,St Louis-Chicago,St Louis,Chicago,489,07:45,Tuesday,December,Rain,21,Yes,8,85,27
+TR1330,Albany-NYC,Albany,New York,341,10:00,Thursday,May,Rain,13,No,27,91,30
+TR1331,Chicago-Detroit,Chicago,Detroit,350,17:00,Saturday,February,Cloudy,23,No,21,108,22
+TR1332,Seattle-Portland,Seattle,Portland,315,18:30,Sunday,March,Sunny,23,No,9,114,14
+TR1333,Sacramento-Emeryville,Sacramento,Emeryville,315,20:45,Monday,January,Fog,10,No,37,100,50
+TR1334,St Louis-Chicago,St Louis,Chicago,314,09:15,Sunday,December,Rain,15,No,0,83,11
+TR1335,St Louis-Chicago,St Louis,Chicago,632,09:00,Tuesday,March,Rain,11,Yes,15,76,33
+TR1336,St Louis-Chicago,St Louis,Chicago,310,08:00,Thursday,January,Rain,17,No,23,104,31
+TR1337,Los Angeles-San Diego,Los Angeles,San Diego,443,09:30,Wednesday,July,Sunny,27,Yes,36,117,43
+TR1338,Boston-Washington,Boston,Washington,388,20:45,Thursday,May,Rain,19,Yes,38,89,51
+TR1339,Boston-Washington,Boston,Washington,130,06:30,Wednesday,October,Fog,14,No,38,74,59
+TR1340,Seattle-Portland,Seattle,Portland,613,19:15,Tuesday,July,Fog,6,Yes,1,69,19
+TR1341,Seattle-Portland,Seattle,Portland,465,06:00,Tuesday,April,Fog,13,No,20,95,34
+TR1342,Boston-Washington,Boston,Washington,561,19:45,Tuesday,May,Rain,16,No,34,108,49
+TR1343,Seattle-Portland,Seattle,Portland,256,18:30,Thursday,February,Fog,15,No,16,93,33
+TR1344,New York-Boston,New York,Boston,165,12:00,Wednesday,May,Fog,9,No,11,119,22
+TR1345,Boston-Washington,Boston,Washington,631,21:00,Wednesday,October,Sunny,23,Yes,17,114,23
+TR1346,Los Angeles-San Diego,Los Angeles,San Diego,213,08:45,Thursday,September,Fog,15,No,19,71,38
+TR1347,Washington-New York,Washington,New York,396,17:30,Saturday,March,Snow,2,No,38,76,70
+TR1348,New York-Philadelphia,New York,Philadelphia,450,14:00,Monday,October,Cloudy,24,No,33,93,35
+TR1349,Albany-NYC,Albany,New York,435,21:15,Friday,November,Fog,13,Yes,28,128,54
+TR1350,New York-Philadelphia,New York,Philadelphia,364,11:45,Monday,September,Cloudy,28,No,16,79,17
+TR1351,New York-Boston,New York,Boston,400,22:15,Thursday,December,Snow,5,No,34,117,53
+TR1352,New York-Boston,New York,Boston,307,09:30,Sunday,March,Fog,9,No,16,98,38
+TR1353,Boston-Washington,Boston,Washington,250,21:30,Saturday,December,Rain,25,Yes,25,110,42
+TR1354,Seattle-Portland,Seattle,Portland,319,10:45,Monday,February,Snow,0,No,10,123,28
+TR1355,Chicago-Detroit,Chicago,Detroit,597,08:00,Sunday,October,Sunny,20,Yes,10,121,14
+TR1356,Chicago-Detroit,Chicago,Detroit,625,05:00,Thursday,May,Rain,17,Yes,15,69,46
+TR1357,Seattle-Portland,Seattle,Portland,139,15:30,Thursday,July,Cloudy,28,No,3,88,6
+TR1358,Washington-New York,Washington,New York,467,22:30,Friday,September,Sunny,22,No,6,66,14
+TR1359,New York-Philadelphia,New York,Philadelphia,151,07:45,Thursday,May,Sunny,32,Yes,14,106,19
+TR1360,New York-Boston,New York,Boston,273,18:45,Friday,July,Rain,22,No,37,72,58
+TR1361,Chicago-Detroit,Chicago,Detroit,236,10:15,Friday,October,Sunny,22,Yes,5,124,12
+TR1362,Seattle-Portland,Seattle,Portland,582,14:45,Sunday,February,Snow,1,No,13,125,33
+TR1363,Albany-NYC,Albany,New York,337,18:15,Tuesday,September,Cloudy,16,No,11,89,14
+TR1364,St Louis-Chicago,St Louis,Chicago,291,09:15,Monday,January,Snow,-3,No,37,124,55
+TR1365,Seattle-Portland,Seattle,Portland,297,09:30,Wednesday,October,Snow,-5,No,25,125,42
+TR1366,Seattle-Portland,Seattle,Portland,354,14:30,Thursday,September,Fog,13,Yes,7,127,27
+TR1367,Los Angeles-San Diego,Los Angeles,San Diego,531,10:00,Sunday,June,Rain,20,No,37,91,55
+TR1368,New York-Boston,New York,Boston,178,11:30,Tuesday,October,Sunny,26,No,29,120,32
+TR1369,Boston-Washington,Boston,Washington,539,15:45,Saturday,December,Snow,3,Yes,31,69,69
+TR1370,Albany-NYC,Albany,New York,627,20:30,Monday,May,Sunny,33,No,3,100,3
+TR1371,Washington-New York,Washington,New York,142,17:45,Tuesday,May,Fog,5,No,29,99,44
+TR1372,Sacramento-Emeryville,Sacramento,Emeryville,474,22:45,Sunday,October,Cloudy,23,No,22,109,27
+TR1373,Albany-NYC,Albany,New York,317,13:00,Thursday,July,Cloudy,16,No,35,84,42
+TR1374,New York-Boston,New York,Boston,230,19:00,Tuesday,March,Cloudy,15,No,2,103,2
+TR1375,Washington-New York,Washington,New York,697,14:30,Wednesday,September,Fog,14,No,34,63,52
+TR1376,Seattle-Portland,Seattle,Portland,332,09:30,Wednesday,February,Cloudy,24,No,17,66,22
+TR1377,New York-Philadelphia,New York,Philadelphia,415,22:30,Wednesday,May,Cloudy,26,No,34,118,35
+TR1378,Sacramento-Emeryville,Sacramento,Emeryville,424,18:45,Saturday,April,Sunny,26,No,23,70,28
+TR1379,Albany-NYC,Albany,New York,313,12:00,Thursday,November,Snow,0,Yes,19,101,51
+TR1380,Sacramento-Emeryville,Sacramento,Emeryville,429,09:00,Sunday,February,Rain,12,Yes,6,120,24
+TR1381,Sacramento-Emeryville,Sacramento,Emeryville,668,05:45,Tuesday,December,Sunny,35,No,28,78,31
+TR1382,Chicago-Detroit,Chicago,Detroit,228,08:15,Wednesday,January,Sunny,23,No,1,98,6
+TR1383,St Louis-Chicago,St Louis,Chicago,194,16:45,Monday,April,Fog,13,No,24,102,32
+TR1384,Seattle-Portland,Seattle,Portland,426,18:45,Sunday,May,Snow,-3,No,34,129,66
+TR1385,Boston-Washington,Boston,Washington,698,22:15,Sunday,October,Fog,13,No,13,64,32
+TR1386,New York-Philadelphia,New York,Philadelphia,317,21:45,Friday,April,Fog,7,Yes,2,88,24
+TR1387,New York-Boston,New York,Boston,139,22:15,Sunday,November,Rain,17,Yes,17,107,33
+TR1388,Seattle-Portland,Seattle,Portland,174,21:45,Friday,March,Sunny,26,Yes,10,95,13
+TR1389,Albany-NYC,Albany,New York,578,13:45,Tuesday,August,Snow,2,No,29,126,52
+TR1390,Seattle-Portland,Seattle,Portland,531,21:45,Tuesday,November,Sunny,23,No,18,88,19
+TR1391,Chicago-Detroit,Chicago,Detroit,205,07:30,Friday,January,Sunny,28,No,3,92,8
+TR1392,New York-Philadelphia,New York,Philadelphia,598,13:00,Tuesday,May,Cloudy,27,No,26,126,29
+TR1393,Chicago-Detroit,Chicago,Detroit,586,12:00,Tuesday,December,Sunny,31,Yes,23,120,23
+TR1394,St Louis-Chicago,St Louis,Chicago,191,05:30,Thursday,June,Fog,15,No,9,95,27
+TR1395,St Louis-Chicago,St Louis,Chicago,559,22:30,Tuesday,January,Snow,0,No,17,114,47
+TR1396,New York-Philadelphia,New York,Philadelphia,259,08:15,Monday,February,Fog,11,No,37,119,51
+TR1397,Albany-NYC,Albany,New York,232,09:30,Friday,December,Rain,18,No,5,77,24
+TR1398,New York-Boston,New York,Boston,692,10:45,Sunday,June,Snow,2,No,30,103,50
+TR1399,New York-Philadelphia,New York,Philadelphia,539,20:45,Wednesday,December,Cloudy,18,Yes,18,62,36
+TR1400,Boston-Washington,Boston,Washington,387,12:15,Tuesday,February,Sunny,21,Yes,9,88,18
+TR1401,Washington-New York,Washington,New York,524,17:30,Wednesday,May,Snow,-5,Yes,12,80,53
+TR1402,St Louis-Chicago,St Louis,Chicago,218,21:00,Monday,May,Snow,-5,No,36,62,67
+TR1403,Washington-New York,Washington,New York,595,07:00,Friday,June,Rain,10,No,22,60,37
+TR1404,Boston-Washington,Boston,Washington,602,07:30,Monday,September,Sunny,30,No,38,88,37
+TR1405,Sacramento-Emeryville,Sacramento,Emeryville,524,06:45,Friday,June,Cloudy,26,No,11,72,21
+TR1406,Chicago-Detroit,Chicago,Detroit,507,21:15,Thursday,September,Cloudy,22,Yes,22,107,27
+TR1407,Boston-Washington,Boston,Washington,384,17:15,Sunday,April,Rain,19,No,30,111,41
+TR1408,Boston-Washington,Boston,Washington,345,10:45,Friday,July,Cloudy,16,No,29,112,34
+TR1409,Boston-Washington,Boston,Washington,178,14:15,Thursday,July,Fog,12,Yes,28,129,47
+TR1410,New York-Boston,New York,Boston,204,10:15,Wednesday,December,Rain,18,Yes,4,99,19
+TR1411,Albany-NYC,Albany,New York,595,20:00,Tuesday,December,Fog,13,Yes,19,68,41
+TR1412,Boston-Washington,Boston,Washington,557,10:00,Saturday,December,Fog,12,No,26,127,44
+TR1413,New York-Philadelphia,New York,Philadelphia,202,15:15,Saturday,August,Fog,8,No,24,124,42
+TR1414,Sacramento-Emeryville,Sacramento,Emeryville,664,20:30,Monday,October,Cloudy,22,No,9,63,18
+TR1415,Boston-Washington,Boston,Washington,511,11:00,Wednesday,August,Cloudy,24,No,33,129,31
+TR1416,Albany-NYC,Albany,New York,253,06:45,Thursday,November,Snow,-4,No,24,78,54
+TR1417,Los Angeles-San Diego,Los Angeles,San Diego,141,14:45,Sunday,April,Cloudy,17,No,21,103,19
+TR1418,Albany-NYC,Albany,New York,544,18:45,Wednesday,March,Sunny,23,No,33,116,34
+TR1419,Albany-NYC,Albany,New York,187,19:00,Friday,April,Cloudy,20,No,5,61,12
+TR1420,Sacramento-Emeryville,Sacramento,Emeryville,529,20:15,Saturday,October,Sunny,33,Yes,3,105,10
+TR1421,New York-Philadelphia,New York,Philadelphia,580,21:45,Monday,May,Snow,-4,No,3,98,24
+TR1422,New York-Philadelphia,New York,Philadelphia,582,10:45,Friday,March,Cloudy,20,Yes,19,127,24
+TR1423,Los Angeles-San Diego,Los Angeles,San Diego,651,15:45,Friday,March,Fog,15,No,5,60,22
+TR1424,Washington-New York,Washington,New York,699,13:15,Friday,December,Cloudy,21,No,13,71,18
+TR1425,New York-Philadelphia,New York,Philadelphia,177,07:30,Monday,May,Fog,10,No,7,62,36
+TR1426,Albany-NYC,Albany,New York,633,11:30,Tuesday,February,Snow,4,No,23,67,48
+TR1427,New York-Boston,New York,Boston,240,12:00,Tuesday,July,Snow,-5,No,24,121,46
+TR1428,Boston-Washington,Boston,Washington,326,10:00,Wednesday,August,Snow,2,No,2,72,31
+TR1429,Seattle-Portland,Seattle,Portland,475,17:45,Monday,May,Snow,3,No,1,84,22
+TR1430,Boston-Washington,Boston,Washington,459,09:15,Tuesday,May,Sunny,29,No,37,72,42
+TR1431,St Louis-Chicago,St Louis,Chicago,468,08:15,Saturday,March,Rain,17,Yes,12,83,36
+TR1432,Washington-New York,Washington,New York,677,10:00,Tuesday,February,Sunny,26,No,4,113,3
+TR1433,Boston-Washington,Boston,Washington,464,09:30,Wednesday,March,Sunny,30,No,0,85,5
+TR1434,St Louis-Chicago,St Louis,Chicago,560,07:15,Friday,September,Rain,12,No,22,122,33
+TR1435,Washington-New York,Washington,New York,696,05:00,Monday,October,Fog,5,Yes,11,64,48
+TR1436,Albany-NYC,Albany,New York,661,10:30,Wednesday,July,Fog,10,No,35,103,57
+TR1437,Albany-NYC,Albany,New York,444,22:45,Saturday,December,Fog,10,No,35,67,62
+TR1438,New York-Philadelphia,New York,Philadelphia,431,21:15,Saturday,September,Fog,13,No,38,126,50
+TR1439,Sacramento-Emeryville,Sacramento,Emeryville,592,17:45,Thursday,November,Cloudy,23,No,0,68,9
+TR1440,Los Angeles-San Diego,Los Angeles,San Diego,490,16:15,Wednesday,July,Fog,14,Yes,16,62,46
+TR1441,New York-Philadelphia,New York,Philadelphia,558,21:00,Monday,June,Snow,-3,No,4,129,20
+TR1442,Washington-New York,Washington,New York,490,14:30,Tuesday,January,Cloudy,24,No,5,105,9
+TR1443,Chicago-Detroit,Chicago,Detroit,607,12:30,Wednesday,May,Cloudy,18,Yes,0,91,11
+TR1444,New York-Philadelphia,New York,Philadelphia,147,09:45,Sunday,December,Fog,8,No,33,61,50
+TR1445,New York-Boston,New York,Boston,533,20:30,Friday,December,Rain,12,No,40,111,49
+TR1446,Los Angeles-San Diego,Los Angeles,San Diego,343,12:45,Sunday,November,Cloudy,28,Yes,35,83,47
+TR1447,New York-Boston,New York,Boston,621,21:30,Tuesday,January,Fog,14,No,22,82,35
+TR1448,Boston-Washington,Boston,Washington,608,17:45,Sunday,October,Fog,11,Yes,21,65,42
+TR1449,Washington-New York,Washington,New York,476,18:30,Monday,February,Fog,5,No,3,87,18
+TR1450,Boston-Washington,Boston,Washington,172,11:15,Thursday,April,Fog,13,No,17,124,34
+TR1451,Chicago-Detroit,Chicago,Detroit,358,22:30,Friday,February,Fog,6,No,29,95,52
+TR1452,St Louis-Chicago,St Louis,Chicago,498,13:45,Tuesday,November,Cloudy,17,Yes,34,82,45
+TR1453,New York-Philadelphia,New York,Philadelphia,236,20:00,Monday,October,Snow,-2,Yes,30,104,63
+TR1454,Boston-Washington,Boston,Washington,210,06:00,Tuesday,March,Snow,4,No,13,129,30
+TR1455,Chicago-Detroit,Chicago,Detroit,575,22:00,Friday,November,Fog,9,No,22,65,39
+TR1456,Chicago-Detroit,Chicago,Detroit,440,17:15,Wednesday,August,Snow,-1,No,34,121,53
+TR1457,New York-Philadelphia,New York,Philadelphia,296,11:30,Tuesday,July,Rain,21,Yes,20,103,37
+TR1458,Sacramento-Emeryville,Sacramento,Emeryville,124,16:30,Friday,September,Rain,16,No,31,114,40
+TR1459,Chicago-Detroit,Chicago,Detroit,236,18:45,Monday,June,Rain,24,Yes,4,98,28
+TR1460,Sacramento-Emeryville,Sacramento,Emeryville,405,20:30,Thursday,May,Sunny,33,No,40,62,48
+TR1461,Los Angeles-San Diego,Los Angeles,San Diego,662,12:45,Monday,November,Snow,1,Yes,27,130,56
+TR1462,New York-Boston,New York,Boston,152,15:45,Tuesday,August,Fog,5,No,29,112,48
+TR1463,Chicago-Detroit,Chicago,Detroit,394,16:00,Wednesday,May,Rain,23,No,8,119,12
+TR1464,New York-Boston,New York,Boston,262,22:30,Saturday,January,Snow,1,Yes,31,119,60
+TR1465,Albany-NYC,Albany,New York,619,07:45,Friday,September,Rain,21,No,13,79,23
+TR1466,Albany-NYC,Albany,New York,587,19:15,Friday,November,Sunny,28,No,26,62,33
+TR1467,Los Angeles-San Diego,Los Angeles,San Diego,577,09:30,Saturday,November,Sunny,33,No,12,97,11
+TR1468,Albany-NYC,Albany,New York,398,05:00,Thursday,November,Snow,-3,No,0,93,31
+TR1469,Albany-NYC,Albany,New York,474,06:00,Sunday,June,Fog,15,Yes,6,94,32
+TR1470,Boston-Washington,Boston,Washington,635,08:45,Wednesday,October,Cloudy,16,Yes,5,83,14
+TR1471,Washington-New York,Washington,New York,273,16:45,Thursday,July,Snow,-2,No,26,87,47
+TR1472,Albany-NYC,Albany,New York,245,11:30,Wednesday,March,Fog,13,Yes,10,63,39
+TR1473,New York-Philadelphia,New York,Philadelphia,297,22:45,Thursday,April,Fog,10,No,36,64,57
+TR1474,New York-Philadelphia,New York,Philadelphia,442,18:15,Monday,May,Snow,2,No,38,111,65
+TR1475,Los Angeles-San Diego,Los Angeles,San Diego,345,11:15,Wednesday,January,Cloudy,16,No,16,95,17
+TR1476,Albany-NYC,Albany,New York,349,05:45,Sunday,August,Fog,6,Yes,40,130,65
+TR1477,Seattle-Portland,Seattle,Portland,396,20:15,Friday,July,Rain,16,No,31,72,49
+TR1478,Sacramento-Emeryville,Sacramento,Emeryville,255,16:15,Friday,June,Rain,18,No,27,83,42
+TR1479,Chicago-Detroit,Chicago,Detroit,667,05:45,Wednesday,April,Rain,14,No,11,100,28
+TR1480,New York-Boston,New York,Boston,344,13:30,Wednesday,June,Fog,10,Yes,13,108,27
+TR1481,Sacramento-Emeryville,Sacramento,Emeryville,402,11:00,Sunday,July,Snow,4,No,20,103,49
+TR1482,Boston-Washington,Boston,Washington,669,20:30,Saturday,July,Rain,20,No,31,105,49
+TR1483,Washington-New York,Washington,New York,365,20:30,Friday,September,Cloudy,25,Yes,24,82,30
+TR1484,Sacramento-Emeryville,Sacramento,Emeryville,224,13:30,Friday,July,Rain,12,Yes,21,91,29
+TR1485,Boston-Washington,Boston,Washington,277,12:45,Sunday,April,Fog,14,No,11,102,27
+TR1486,Los Angeles-San Diego,Los Angeles,San Diego,486,14:30,Monday,February,Snow,0,No,32,95,48
+TR1487,Albany-NYC,Albany,New York,458,09:00,Sunday,October,Rain,11,No,31,81,48
+TR1488,Albany-NYC,Albany,New York,232,07:00,Wednesday,February,Snow,0,No,40,70,59
+TR1489,St Louis-Chicago,St Louis,Chicago,421,16:30,Monday,November,Snow,-2,No,18,90,40
+TR1490,Albany-NYC,Albany,New York,653,07:30,Thursday,February,Cloudy,18,No,15,117,17
+TR1491,Boston-Washington,Boston,Washington,182,16:30,Thursday,November,Sunny,26,No,19,124,24
+TR1492,New York-Boston,New York,Boston,476,12:30,Sunday,May,Rain,15,No,39,129,49
+TR1493,Washington-New York,Washington,New York,393,07:00,Friday,September,Rain,19,No,18,101,26
+TR1494,Los Angeles-San Diego,Los Angeles,San Diego,176,13:15,Monday,April,Cloudy,23,Yes,22,126,27
+TR1495,Sacramento-Emeryville,Sacramento,Emeryville,524,09:45,Wednesday,January,Snow,-1,No,39,74,77
+TR1496,St Louis-Chicago,St Louis,Chicago,598,21:00,Thursday,June,Fog,13,No,15,73,35
+TR1497,Chicago-Detroit,Chicago,Detroit,188,15:30,Saturday,February,Fog,9,No,23,126,35
+TR1498,Albany-NYC,Albany,New York,140,18:15,Saturday,July,Sunny,30,No,26,88,25
+TR1499,New York-Philadelphia,New York,Philadelphia,478,08:30,Wednesday,January,Cloudy,28,No,6,72,15
+TR1500,Chicago-Detroit,Chicago,Detroit,522,11:30,Sunday,January,Snow,4,No,12,126,35
